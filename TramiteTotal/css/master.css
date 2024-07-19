@@ -1,0 +1,72 @@
+body {
+  background: linear-gradient(135deg, #7ac0e6, #7edda3); /* Degradado de azul más oscuro a verde más claro */
+  padding-top: 56px; /* Altura del navbar */
+  
+}
+
+.navbar-nav .nav-item.eliminar-tramites:hover .nav-link {
+  color: rgba(255, 0, 0, 0.6) !important; /* Rojo con opacidad */
+}
+
+.navbar-nav .nav-item.agregar-tramites:hover .nav-link {
+  color: rgba(0, 200, 0, 0.6) !important; /* Verde con opacidad */
+}
+
+
+h1, h2{
+  text-align: center;
+}
+
+/* Estilo para el contenedor de las tarjetas */
+#trámites {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  justify-content: center;
+  width: 80%; /* Ancho del contenedor */
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+
+/* Estilo para las tarjetas */
+.card {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  background-color: #e0f7fa; /* Azul claro */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+}
+
+
+
+
+
+
+
+
+
